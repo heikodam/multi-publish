@@ -6,7 +6,6 @@ const input = (props) => {
 
     let inputElement = null;
     const inputClasses = [classes.InputElement]
-    console.log(props);
 
     switch (props.elementType){
         case('input'):

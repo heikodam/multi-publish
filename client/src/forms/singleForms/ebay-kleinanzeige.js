@@ -1,10 +1,10 @@
 const ebayKleinanzeige = {
-    name: {
-        name: 'name',
+    title: {
+        name: 'title',
         elementType: 'input',
         elementConfig: {
             type: 'text',
-            placeholder: 'Your Name'
+            placeholder: 'Your Title'
         },
         value: '',
         validation: {
@@ -13,21 +13,6 @@ const ebayKleinanzeige = {
         valid: false,
         touched: false
     },
-    
-    email: {
-        name: 'email',
-        elementType: 'input',
-        elementConfig: {
-            type: 'email',
-            placeholder: 'Your email'
-        },
-        value: '',
-        validation: {
-            required: true
-        },
-        valid: false,
-        touched: false
-    }
 }
 
 

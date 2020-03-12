@@ -1,11 +1,11 @@
 const immowelt = {
 
-    name: {
-        name: 'name',
+    bedrooms: {
+        name: 'bedrooms',
         elementType: 'input',
         elementConfig: {
-            type: 'text',
-            placeholder: 'Your Name'
+            type: 'number',
+            placeholder: 'How many Bedrooms'
         },
         value: '',
         validation: {

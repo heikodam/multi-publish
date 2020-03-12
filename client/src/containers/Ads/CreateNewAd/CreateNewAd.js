@@ -49,8 +49,8 @@ const CreateNewAd = props => {
     let form = formElArray.map(formEl => (
         <Input
             key={formEl.name}
-            elementType = {formEl.elementType}
-            elementConfig = {formEl.elementConfig}
+            elType = {formEl.elType}
+            elConfig = {formEl.elConfig}
             value = {formEl.value}
             changed = {(event) => inputChangeHandler(event, formEl.name)}
         />

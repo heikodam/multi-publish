@@ -1,17 +1,9 @@
 const ebayKleinanzeige = {
     title: {
         name: 'title',
-        elementType: 'input',
-        elementConfig: {
-            type: 'text',
+        elConfig: {
             placeholder: 'Your Title'
-        },
-        value: '',
-        validation: {
-            required: true
-        },
-        valid: false,
-        touched: false
+        }
     },
 }
 
